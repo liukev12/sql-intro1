@@ -15,4 +15,5 @@
 -- | 2019 | Houston Astros                | 107       |
 -- | 2004 | St. Louis Cardinals           | 105       |
 
-select year, name, wins from teams where year >= 1960 group by year order by wins desc
+select year, name, wins from teams where year >= 1960 group by year
+
